@@ -1,5 +1,6 @@
 import "%modules%/header/header";
 import "%modules%/footer/footer";
+import "%modules%/hero/hero";
 import "%modules%/calculation/calculation";
 import "%modules%/need/need";
 import "%modules%/examples/examples";

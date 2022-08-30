@@ -2,7 +2,8 @@
 	padding: 64px 0 80px;
 	background-color: #ffffff;
 	@media (max-width: 768px){
-		padding: 7.778vw 0 6.189vw;
+		padding: 7.778vw 0 21.944vw;
+		position: relative;
 	}
 	&__header {
 		display: flex;
@@ -21,19 +22,10 @@
 	}
 
 	&__arrow {
-		&-desk {
-			@media (max-width: 768px){
-				display: none;
-			}
-		}
-		&-mob {
-			display: none;
-			@media (max-width: 768px){
-				display: flex;
-				justify-content: flex-end;
-				margin-top: 3.644vw;
-				padding: 10px;
-			}
+		@media (max-width: 768px){
+			position: absolute;
+			right: 5.556vw;
+			bottom: 8.889vw;
 		}
 	}
 }

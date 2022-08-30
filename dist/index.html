@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Project title</title>
+    <meta name="theme-color" content="#fff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;500;600;700&amp;family=Open+Sans:wght@400;600;700&amp;display=swap">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header"> 
+        <div class="header__top top-header"> 
+          <div class="top-header__container container">
+            <div class="top-header__burger"> <span></span><span></span><span></span></div>
+            <div class="top-header__logo"> <a href="#"> 
+                <svg width="24" height="27" viewBox="0 0 24 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M17.4426 0H13.2459L0.262295 13.5L13.2459 27H17.4426L4.45902 13.5L17.4426 0Z" fill="white"></path>
+                  <path d="M24 0H19.8033L6.81967 13.5L19.8033 27H24L11.0164 13.5L24 0Z" fill="white"></path>
+                  <path d="M0 27H11.1475L0 15.6946V27Z" fill="white"></path>
+                  <path d="M11.1475 0H0V11.3054L11.1475 0Z" fill="white"></path>
+                </svg>Key Project</a></div><a class="top-header__tel header__tel" href="tel:4994440517"> 
+              <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1.03 17.33C1.03 17.69 1.11 18.06 1.28 18.42C1.45 18.78 1.67 19.12 1.96 19.44C2.45 19.98 2.99 20.37 3.6 20.62C4.2 20.87 4.85 21 5.55 21C6.57 21 7.66 20.76 8.81 20.27C9.96 19.78 11.11 19.12 12.25 18.29C13.4 17.45 14.49 16.52 15.53 15.49C16.56 14.45 17.49 13.36 18.32 12.22C19.14 11.08 19.8 9.94 20.28 8.81C20.76 7.67 21 6.58 21 5.54C21 4.86 20.88 4.21 20.64 3.61C20.4 3 20.02 2.44 19.49 1.94C18.85 1.31 18.15 1 17.41 1C17.13 1 16.85 1.06 16.6 1.18C16.34 1.3 16.11 1.48 15.93 1.74L13.61 5.01C13.43 5.26 13.3 5.49 13.21 5.71C13.12 5.92 13.07 6.13 13.07 6.32C13.07 6.56 13.14 6.8 13.28 7.03C13.41 7.26 13.6 7.5 13.84 7.74L14.6 8.53C14.71 8.64 14.76 8.77 14.76 8.93C14.76 9.01 14.75 9.08 14.73 9.16C14.7 9.24 14.67 9.3 14.65 9.36C14.47 9.69 14.16 10.12 13.72 10.64C13.27 11.16 12.79 11.69 12.27 12.22C11.73 12.75 11.21 13.24 10.68 13.69C10.16 14.13 9.73 14.43 9.39 14.61C9.34 14.63 9.28 14.66 9.21 14.69C9.13 14.72 9.05 14.73 8.96 14.73C8.79 14.73 8.66 14.67 8.55 14.56L7.79 13.81C7.54 13.56 7.3 13.37 7.07 13.25C6.84 13.11 6.61 13.04 6.36 13.04C6.17 13.04 5.97 13.08 5.75 13.17C5.53 13.26 5.3 13.39 5.05 13.56L1.74 15.91C1.48 16.09 1.3 16.3 1.19 16.55C1.09 16.8 1.03 17.05 1.03 17.33Z" stroke="white" stroke-width="1.5" stroke-miterlimit="10"></path>
+                <path d="M4.5 8C4.5 7.4 4.97 6.48 5.67 5.73C6.31 5.04 7.16 4.5 8 4.5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M1 8C1 4.13 4.13 1 8 1" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>+7 499 444 05 17</a>
+            <div class="top-header__lang header__lang"> 
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M8.0001 3H9.0001C7.0501 8.84 7.0501 15.16 9.0001 21H8.0001" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M15 3C16.95 8.84 16.95 15.16 15 21" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M3 16V15C8.84 16.95 15.16 16.95 21 15V16" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                <path d="M3 9.0001C8.84 7.0501 15.16 7.0501 21 9.0001" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+              </svg>
+              <select> 
+                <option>Рус</option>
+                <option>Анг</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="header__bottom bottom-header">
+          <div class="bottom-header__container container">
+            <div class="bottom-header__menu menu-bottom-header">
+              <ul class="menu-bottom-header__list"> 
+                <li class="menu-bottom-header__item"> <a class="menu-bottom-header__link header-item-click" href="#">О компании                                  </a></li>
+                <li class="menu-bottom-header__item"> <a class="menu-bottom-header__link header-item-click" href="#workwithus">Почему мы</a></li>
+                <li class="menu-bottom-header__item"> <a class="menu-bottom-header__link header-item-click" href="#turnkey-work">Наши услуги</a></li>
+                <li class="menu-bottom-header__item"> <a class="menu-bottom-header__link header-item-click" href="#stages">Как мы работаем</a></li>
+                <li class="menu-bottom-header__item"> <a class="menu-bottom-header__link header-item-click" href="#examples">Реализованные объекты</a></li>
+                <li class="menu-bottom-header__item"> <a class="menu-bottom-header__link header-item-click" href="#news">Новости</a></li>
+              </ul>
+            </div><a class="bottom-header__btn header-item-click" href="#calculation"> <span>Расчет стоимости</span></a>
+            <div class="bottom-header__social"> <a class="bottom-header__tel header__tel" href="tel:4994440517"> 
+                <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M1.03 17.33C1.03 17.69 1.11 18.06 1.28 18.42C1.45 18.78 1.67 19.12 1.96 19.44C2.45 19.98 2.99 20.37 3.6 20.62C4.2 20.87 4.85 21 5.55 21C6.57 21 7.66 20.76 8.81 20.27C9.96 19.78 11.11 19.12 12.25 18.29C13.4 17.45 14.49 16.52 15.53 15.49C16.56 14.45 17.49 13.36 18.32 12.22C19.14 11.08 19.8 9.94 20.28 8.81C20.76 7.67 21 6.58 21 5.54C21 4.86 20.88 4.21 20.64 3.61C20.4 3 20.02 2.44 19.49 1.94C18.85 1.31 18.15 1 17.41 1C17.13 1 16.85 1.06 16.6 1.18C16.34 1.3 16.11 1.48 15.93 1.74L13.61 5.01C13.43 5.26 13.3 5.49 13.21 5.71C13.12 5.92 13.07 6.13 13.07 6.32C13.07 6.56 13.14 6.8 13.28 7.03C13.41 7.26 13.6 7.5 13.84 7.74L14.6 8.53C14.71 8.64 14.76 8.77 14.76 8.93C14.76 9.01 14.75 9.08 14.73 9.16C14.7 9.24 14.67 9.3 14.65 9.36C14.47 9.69 14.16 10.12 13.72 10.64C13.27 11.16 12.79 11.69 12.27 12.22C11.73 12.75 11.21 13.24 10.68 13.69C10.16 14.13 9.73 14.43 9.39 14.61C9.34 14.63 9.28 14.66 9.21 14.69C9.13 14.72 9.05 14.73 8.96 14.73C8.79 14.73 8.66 14.67 8.55 14.56L7.79 13.81C7.54 13.56 7.3 13.37 7.07 13.25C6.84 13.11 6.61 13.04 6.36 13.04C6.17 13.04 5.97 13.08 5.75 13.17C5.53 13.26 5.3 13.39 5.05 13.56L1.74 15.91C1.48 16.09 1.3 16.3 1.19 16.55C1.09 16.8 1.03 17.05 1.03 17.33Z" stroke="black" stroke-width="1.5" stroke-miterlimit="10"></path>
+                  <path d="M4.5 8C4.5 7.4 4.97 6.48 5.67 5.73C6.31 5.04 7.16 4.5 8 4.5" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                  <path d="M1 8C1 4.13 4.13 1 8 1" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>+7 499 444 05 17</a>
+              <div class="bottom-header__lang header__lang"> 
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                  <path d="M8.0001 3H9.0001C7.0501 8.84 7.0501 15.16 9.0001 21H8.0001" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                  <path d="M15 3C16.95 8.84 16.95 15.16 15 21" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                  <path d="M3 16V15C8.84 16.95 15.16 16.95 21 15V16" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                  <path d="M3 9.0001C8.84 7.0501 15.16 7.0501 21 9.0001" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                </svg>
+                <select> 
+                  <option>Рус</option>
+                  <option>Анг</option>
+                </select>
+              </div>
+              <div class="bottom-header__social-icons"> <a href="#"><img src="img/svg/vk.svg" alt="vk"></a><a href="#"><img src="img/svg/in.svg" alt="in"></a><a href="#"><img src="img/svg/insta.svg" alt="insta"></a><a href="#"><img src="img/svg/telegram.svg" alt="telegram"></a><a href="#"><img src="img/svg/whatsapp.svg" alt="whatsapp"></a></div>
+            </div>
+          </div>
+        </div>
+        <div class="header__attention attention-header">
+          <div class="attention-header__container container">
+            <div class="attention-header__title">Внимание АКЦИЯ</div>
+            <div class="attention-header__text">Nam libero tempore, cum soluta nobis est eligendi optio.</div>
+            <div class="attention-header__btn-wrapper"><a class="attention-header__btn" href="#"> <span>подробнее</span></a></div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="hero">
+          <div class="hero__container container"> 
+            <div class="hero__title">Lorem ipsum dolor sit amet, consectetur adipiscing</div><a class="hero__btn" href="#">	<span>Консультация инженера</span></a>
+          </div>
+          <div class="popap-hero-back"></div>
+          <div class="popap-hero">
+            <div class="popap-hero__close"></div>
+            <form class="popap-hero__form" action="" method="method"> 
+              <div class="popap-hero__form-input"> 
+                <input type="text" placeholder="Представьтесь, пожалуйста">
+              </div>
+              <div class="popap-hero__form-input"> 
+                <input type="tel" placeholder="Ваш номер телефона">
+              </div>
+              <div class="popap-hero__form-input popap-hero__form-input--send"> 
+                <input type="submit">
+              </div>
+            </form>
+          </div>
+        </section>
+        <section class="calculation" id="calculation">
+          <div class="calculation__container container"> 
+            <div class="calculation__body"> 
+              <div class="calculation__title general-title general-title--white">Расчет стоимости проектирования</div>
+              <div class="calculation__tabs tabs-calculation">
+                <div class="tabs-calculation__pag"> </div>
+                <div class="tabs-calculation__swiper swiper"> 
+                  <div class="swiper-wrapper">
+                    <div class="tabs-calculation__item swiper-slide"> 
+                      <div class="tabs-calculation__options options-calculation">
+                        <div class="tabs-calculation__title">Параметры</div>
+                        <select class="options-calculation__select1 options-calculation__item" name="select1">
+                          <option value="1">Тип помещения1</option>
+                          <option value="2">Тип помещения2</option>
+                          <option value="3">Тип помещения3</option>
+                          <option value="4">Тип помещения4</option>
+                        </select>
+                        <select class="options-calculation__select2 options-calculation__item" name="select2">
+                          <option value="1">Тип кондиционера1</option>
+                          <option value="2">Тип кондиционера2</option>
+                          <option value="3">Тип кондиционера3</option>
+                          <option value="4">Тип кондиционера4</option>
+                        </select>
+                        <select class="options-calculation__select3 options-calculation__item" name="select3">
+                          <option value="1">Тип вентиляции1</option>
+                          <option value="2">Тип вентиляции2</option>
+                          <option value="3">Тип вентиляции3</option>
+                          <option value="4">Тип вентиляции4</option>
+                        </select>
+                        <div class="options-calculation__square options-calculation__item">
+                          <div class="options-calculation__title">Укажите площадь</div>
+                          <input class="options-calculation__value" type="text" value="S²">
+                          <div class="options-calculation__input-range"> 
+                            <input type="range" name="" id="input" min="0" max="1000" value="50">
+                          </div>
+                        </div>
+                      </div>
+                      <div class="tabs-calculation__price price-calculation"> 
+                        <div class="tabs-calculation__title">Стоимость</div>
+                        <div class="price-calculation__number">160 000 ₽</div>
+                        <div class="price-calculation__text">При заказе систем вентилияции и кондиционирования по нашему проекту скидка 10% на работы и оборудование! </div>
+                        <div class="price-calculation__btn order-project-btn"><span>Заказать проект</span><img src="img/svg/arrow-circle.svg" alt="alt"></div>
+                      </div>
+                    </div>
+                    <div class="tabs-calculation__item swiper-slide"> 
+                      <div class="tabs-calculation__options options-calculation">
+                        <div class="tabs-calculation__title">Оборудование</div>
+                      </div>
+                      <div class="tabs-calculation__price price-calculation"> 
+                        <div class="tabs-calculation__title">Стоимость</div>
+                        <div class="price-calculation__number">160 000 ₽</div>
+                        <div class="price-calculation__text">При заказе систем вентилияции и кондиционирования по нашему проекту скидка 10% на работы и оборудование! </div>
+                        <div class="price-calculation__btn order-project-btn"><span>Заказать проект</span><img src="img/svg/arrow-circle.svg" alt="alt"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tabs-calculation__footer"> <a class="tabs-calculation__footer-item" href="#"> <img src="img/svg/cart.svg" alt="alt"><span>Оформить в рассрочку</span></a><a class="tabs-calculation__footer-item" href="#"> <img src="img/svg/cart.svg" alt="alt"><span>Гарантия регистрации объекта</span></a><a class="tabs-calculation__footer-item" href="#"> <img src="img/svg/cart.svg" alt="alt"><span>Гарантия на монтаж</span></a><a class="tabs-calculation__footer-item" href="#"> <img src="img/svg/cart.svg" alt="alt"><span>Заказать выезд специалиста</span></a></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="need" id="need">
+          <div class="need__title general-title"> 
+            <div class="container">
+               Зачем нужен проект?</div>
+          </div>
+          <div class="header-need"> 
+            <div class="header-need__container container"><a class="header-need__question" href="#"> <img src="img/svg/message.svg" alt="alt"><span>Задать вопрос</span></a>
+              <div class="swiper header-need-swiper" thumbsslider="">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide header-need__introduction"><span>Веедение</span></div>
+                  <div class="swiper-slide header-need__advantage"><span>Преимущества проекта</span></div>
+                  <div class="swiper-slide header-need__questions"><span>Часто задаваемые вопросы</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content-need">
+            <div class="content-need__container container">
+              <div class="swiper content-need-swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide content-need__introduction"> 
+                    <div class="content-need__row"> 
+                      <div class="content-need__left"> 
+                        <div class="content-need__title">Nemo enim ipsam voluptatem quia voluptas</div>
+                        <div class="content-need__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat</div>
+                        <ul class="content-need__list"> 
+                          <li class="content-need__item"> <span>Sed ut perspiciatis </span>unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</li>
+                          <li class="content-need__item content-need__item-lh"> <span>Nemo enim </span>ipsam voluptatem quia voluptas sit aspernatur aut</li>
+                          <li class="content-need__item content-need__item-lh"> <span>Neque porro quisquam </span>est, qui dolorem ipsum quia dolor</li>
+                        </ul><a class="content-need__btn" href="#"> <span>Посмотреть наши проекты</span><img src="img/svg/arrow-circle.svg" alt="alt"></a>
+                      </div>
+                      <div class="content-need__right" id="content-need__right"> 
+                        <video class="content-need__player" id="content-need__player" src=""></video>
+                        <div class="content-need__pause pause"></div>
+                        <div class="content-need__img play"><img src="img/need/1.jpg" alt="alt"></div>
+                        <div class="content-need__play-btn"><img src="img/svg/play.svg" alt="alt"></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide content-need__advantage">Lorem ipsum dolor sit amet.</div>
+                  <div class="swiper-slide content-need__questions">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet. </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="workwithus" id="workwithus">
+          <div class="workwithus__container container"> 
+            <div class="workwithus__title general-title">Почему стоит работать с нами:</div>
+            <div class="workwithus__items"> 
+              <div class="workwithus__item item-workwithus"> 
+                <div class="item-workwithus__inner">
+                  <div class="item-workwithus__header"> <img src="img/svg/kas.svg" alt="alt"><span>Мы - команда инженеров</span></div>
+                  <div class="item-workwithus__text">But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain</div>
+                </div>
+              </div>
+              <div class="workwithus__item item-workwithus"> 
+                <div class="item-workwithus__inner">
+                  <div class="item-workwithus__header"> <img src="img/svg/kas.svg" alt="alt"><span>Работаем напрямую с производителями</span></div>
+                  <div class="item-workwithus__text">No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those</div>
+                </div>
+              </div>
+              <div class="workwithus__item item-workwithus"> 
+                <div class="item-workwithus__inner">
+                  <div class="item-workwithus__header"> <img src="img/svg/kas.svg" alt="alt"><span>Своя сервисная служба</span></div>
+                  <div class="item-workwithus__text">To take a trivial example, which of us ever undertakes laborious physical</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="turnkey-work" id="turnkey-work"> 
+          <div class="turnkey-work__container container"> 
+            <div class="turnkey-work__title general-title general-title--white">Работа под ключ</div>
+            <div class="turnkey-work__text"> 
+              <p>
+                 Мы не только проектируем, <br>но и поможем в оказании <br>сопутствующих услуг под ключ. </p>
+              <p>
+                 Вы можете получить весь спектр услуг <br>от проектирования до ввода обьекта <br>в эксплуатацию</p>
+            </div>
+            <div class="turnkey-work__items"> 
+              <div class="turnkey-work__item"> 
+                <div class="turnkey-work__item-inner"><img src="img/svg/turnkey-work1.svg" alt="alt"><span>Архитектурное проектирование</span></div>
+              </div>
+              <div class="turnkey-work__item"> 
+                <div class="turnkey-work__item-inner"><img src="img/svg/turnkey-work2.svg" alt="alt"><span>Проектирование электрификации</span></div>
+              </div>
+              <div class="turnkey-work__item"> 
+                <div class="turnkey-work__item-inner"><img src="img/svg/turnkey-work3.svg" alt="alt"><span>Проектирование отопления</span></div>
+              </div>
+              <div class="turnkey-work__item"> 
+                <div class="turnkey-work__item-inner"><img src="img/svg/turnkey-work4.svg" alt="alt"><span>Дизайн проект и 3D визуализация</span></div>
+              </div>
+              <div class="turnkey-work__item"> 
+                <div class="turnkey-work__item-inner"><img src="img/svg/turnkey-work5.svg" alt="alt"><span>Строительные работы</span></div>
+              </div>
+              <div class="turnkey-work__item"> 
+                <div class="turnkey-work__item-inner"><img src="img/svg/turnkey-work6.svg" alt="alt"><span>Кондиционирование и вентиляция</span></div>
+              </div>
+              <div class="turnkey-work__item"> 
+                <div class="turnkey-work__item-inner"><img src="img/svg/turnkey-work7.svg" alt="alt"><span>Гарантийное обслуживание</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="turnkey-work__footer"> 
+            <div class="container"> 
+              <div class="turnkey-work__footer-title">Оплачивается дополнительно по договоренности:</div>
+              <div class="turnkey-work__footer-row"> 
+                <ul class="turnkey-work__footer-list"> 
+                  <li class="turnkey-work__footer-item">Внесение изменений Заказчиком после согласования схемы монтажа</li>
+                  <li class="turnkey-work__footer-item">Согласование проекта с управляющей компанией</li>
+                </ul>
+                <div class="turnkey-work__footer-btn order-project-btn"><span>Заказать проект</span><img src="img/svg/arrow-circle.svg" alt="alt"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="stages" id="stages">
+          <div class="stages__container container"> 
+            <div class="stages__title general-title">Этапы проектирования</div>
+            <div class="stages__items"> 
+              <div class="stages__item"> 
+                <div class="stages__item-img"> <img src="img/stages/1.jpg" alt="alt"></div>
+                <div class="stages__item-body"> 
+                  <div class="stages__item-title general-title">Выезд проектировщика</div>
+                  <div class="stages__item-text">Выезд специалиста согласовывается с заказчиком заранее и производится в удобное для заказчика время</div><a class="stages__item-btn" href="#"> <span>Уточнить детали</span></a>
+                </div>
+              </div>
+              <div class="stages__item stages__item--ord"> 
+                <div class="stages__item-img"> <img src="img/stages/2.jpg" alt="alt"></div>
+                <div class="stages__item-body"> 
+                  <div class="stages__item-title general-title">Подбор оборудования и разработка аксонометрии</div>
+                  <div class="stages__item-text">Оборудование подбирается с учетом технических условий заказчика. Помимо обычной схемы создается аксонометрическая 3D модель в программе Autocad</div>
+                </div>
+              </div>
+              <div class="stages__item"> 
+                <div class="stages__item-img"> <img src="img/stages/3.jpg" alt="alt"></div>
+                <div class="stages__item-body"> 
+                  <div class="stages__item-title general-title">Согласование и корректировка схемы</div>
+                  <div class="stages__item-text">Все схемы согласовываются с представителем заказчика и, если есть необходимость, корректируются</div>
+                </div>
+              </div>
+              <div class="stages__item stages__item--ord"> 
+                <div class="stages__item-img"> <img src="img/stages/4.jpg" alt="alt"></div>
+                <div class="stages__item-body"> 
+                  <div class="stages__item-text"> </div>
+                  <div class="stages__item-title general-title">Оформление, распечатка и предоставление КП</div>
+                  <div class="stages__item-text">Готовый проект в электронном виде, а также распечатанный в нескольких экземплярах направляется представителю заказчика. На оборудование, материалы и работы по проекту предоставляется коммерческое предложение</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="examples" id="examples">
+          <div class="examples__container container"> 
+            <div class="examples__title general-title">Примеры реализованных объектов</div>
+            <div class="examples__swiper swiper"> 
+              <div class="swiper-wrapper">
+                <div class="examples__slide swiper-slide"> <a class="examples__img" href="#"> <img src="img/examples/1.jpg" alt="alt"></a>
+                  <div class="examples__body"> 
+                    <div class="examples__body-title general-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                    <div class="examples__body-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto</div><a class="examples__btn" href="#"> <span>Посмотреть проект</span><img src="img/svg/arrow-circle.svg" alt="alt"></a>
+                  </div>
+                </div>
+                <div class="examples__slide swiper-slide"> <a class="examples__img" href="#"> <img src="img/examples/1.jpg" alt="alt"></a>
+                  <div class="examples__body"> 
+                    <div class="examples__body-title general-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                    <div class="examples__body-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto</div><a class="examples__btn" href="#"> <span>Посмотреть проект</span><img src="img/svg/arrow-circle.svg" alt="alt"></a>
+                  </div>
+                </div>
+                <div class="examples__slide swiper-slide"> <a class="examples__img" href="#"> <img src="img/examples/1.jpg" alt="alt"></a>
+                  <div class="examples__body"> 
+                    <div class="examples__body-title general-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                    <div class="examples__body-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto</div><a class="examples__btn" href="#"> <span>Посмотреть проект</span><img src="img/svg/arrow-circle.svg" alt="alt"></a>
+                  </div>
+                </div>
+                <div class="examples__slide swiper-slide"> <a class="examples__img" href="#"> <img src="img/examples/1.jpg" alt="alt"></a>
+                  <div class="examples__body"> 
+                    <div class="examples__body-title general-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                    <div class="examples__body-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto</div><a class="examples__btn" href="#"> <span>Посмотреть проект</span><img src="img/svg/arrow-circle.svg" alt="alt"></a>
+                  </div>
+                </div>
+                <div class="examples__slide swiper-slide"> <a class="examples__img" href="#"> <img src="img/examples/1.jpg" alt="alt"></a>
+                  <div class="examples__body"> 
+                    <div class="examples__body-title general-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+                    <div class="examples__body-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto</div><a class="examples__btn" href="#"> <span>Посмотреть проект</span><img src="img/svg/arrow-circle.svg" alt="alt"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="examples__footer"> 
+              <div class="examples__pagination"> </div>
+              <div class="examples__arrow arrow-swiper"> 
+                <div class="examples__arrow-prev arrow-swiper__prev"><img src="img/svg/arrow-swiper-prev.svg" alt="alt"></div>
+                <div class="examples__arrow-next arrow-swiper__next"><img src="img/svg/arrow-swiper-next.svg" alt="alt"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="question"> 
+          <div class="question__container container"> 
+            <div class="question__title general-title">Задайте нам вопрос</div>
+            <div class="question__content"> 
+              <form class="question__form form-question" action="#">
+                <div class="form-question__input-wrapper"> 
+                  <input type="text" placeholder="Представьтесь, пожалуйста">
+                </div>
+                <div class="form-question__input-wrapper"> 
+                  <input type="tel" placeholder="Ваш номер телефона">
+                </div>
+                <div class="form-question__message">
+                  <textarea type="text" placeholder="Суть обращения"></textarea>
+                </div>
+                <div class="form-question__file">
+                  <label class="form-question__file-label" for="form-question__file-input"><span class="js-form-question__file-span form-question__file-span">Прикрепить файл</span><img src="img/svg/file.svg" alt="alt">
+                    <input class="form-question__file-input" id="form-question__file-input" type="file" name="attachment-file" value="1">
+                  </label>
+                </div>
+                <div class="form-question__send"> 
+                  <button type="submit"><span>Отправить вопрос</span></button>
+                </div>
+              </form>
+              <div class="right-question">
+                <div class="right-question__icon"> <img src="img/svg/icon.svg" alt="alt"></div><a class="right-question__title" href="#">Узнать о нашем оборудовании</a>
+                <div class="right-question__text">Вентустановки, климатическое оборудование и многое другое</div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="news" id="news">
+          <div class="news__container container">
+            <div class="news__header">
+              <div class="news__title general-title">Новости из мира проектирования</div>
+              <div class="news__arrow arrow-swiper"> 
+                <div class="news__arrow-prev arrow-swiper__prev"><img src="img/svg/arrow-swiper-prev.svg" alt="alt"></div>
+                <div class="news__arrow-next arrow-swiper__next"><img src="img/svg/arrow-swiper-next.svg" alt="alt"></div>
+              </div>
+            </div>
+            <div class="news__swiper swiper"> 
+              <div class="swiper-wrapper"> 
+                <div class="news__item item-news swiper-slide"> 
+                  <div class="item-news__column"> 
+                    <div class="item-news__img"> <img src="img/news/1.jpg" alt="alt"></div>
+                    <div class="item-news__content">
+                      <div class="item-news__date">6 августа 2022</div>
+                      <div class="item-news__title">The standard Lorem Ipsum passage</div>
+                      <div class="item-news__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</div>
+                      <div class="item-news__link"> <img src="img/svg/arrow-circle.svg" alt="alt"><span>Прочитать новость</span></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="news__item item-news swiper-slide"> 
+                  <div class="item-news__column"> 
+                    <div class="item-news__img"> <img src="img/news/2.jpg" alt="alt"></div>
+                    <div class="item-news__content">
+                      <div class="item-news__date">8 августа 2022</div>
+                      <div class="item-news__title">Sed ut perspiciatis unde omnis</div>
+                      <div class="item-news__text">Nemo enim ipsam voluptatem quia voluptas sit aspernatur</div>
+                      <div class="item-news__link"> <img src="img/svg/arrow-circle.svg" alt="alt"><span>Прочитать новость</span></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="news__item item-news swiper-slide"> 
+                  <div class="item-news__column"> 
+                    <div class="item-news__img"> <img src="img/news/3.jpg" alt="alt"></div>
+                    <div class="item-news__content">
+                      <div class="item-news__date">10 августа 2022</div>
+                      <div class="item-news__title">Ut enim ad minima veniam</div>
+                      <div class="item-news__text">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</div>
+                      <div class="item-news__link"> <img src="img/svg/arrow-circle.svg" alt="alt"><span>Прочитать новость</span></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="news__item item-news swiper-slide"> 
+                  <div class="item-news__column"> 
+                    <div class="item-news__img"> <img src="img/news/1.jpg" alt="alt"></div>
+                    <div class="item-news__content">
+                      <div class="item-news__date">6 августа 2022</div>
+                      <div class="item-news__title">The standard Lorem Ipsum passage</div>
+                      <div class="item-news__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</div>
+                      <div class="item-news__link"> <img src="img/svg/arrow-circle.svg" alt="alt"><span>Прочитать новость</span></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer"> 
+        <div class="footer__top top-footer"> 
+          <div class="top-footer__container container"> 
+            <div class="top-footer__logo"> <a href="#">Key Project</a></div>
+            <div class="top-footer__row">
+              <div class="top-footer__text"> 
+                <p>Общество с ограниченной ответственностью «Key Project» </p>
+                <p>Россия, Москва, Рязанский проспект, 16, стр. 1</p>
+              </div>
+              <div class="top-footer__connection"> <a href="mailto:zakaz@klimek.ru">zakaz@klimek.ru</a><a href="tel:4994441992">8 499 444-19-92</a></div>
+              <div class="top-footer__social"> <a href="#"> <img src="img/svg/vk.svg" alt="alt"></a><a href="#"> <img src="img/svg/in.svg" alt="alt"></a><a href="#"> <img src="img/svg/insta.svg" alt="alt"></a><a href="#"> <img src="img/svg/telegram.svg" alt="alt"></a><a href="#"> <img src="img/svg/whatsapp.svg" alt="alt"></a></div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__bottom bottom-footer">
+          <div class="bottom-footer__container container"> 
+            <div class="bottom-footer__left">© 2019-2022 Климек. Все права защищены</div><a class="bottom-footer__center" href="#">Политика обработки персональных данных</a>
+            <div class="bottom-footer__right">
+               Разработка сайта:<a href="#"> <img src="img/svg/md.svg" alt="alt"></a></div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"> </script>
+    <script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"> </script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

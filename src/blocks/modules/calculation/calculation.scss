@@ -461,6 +461,7 @@
 .select2-dropdown {
 	background-color: #000000;
 	.select2-search {
+		display: none;
 		@media (max-width: 768px){
 			padding: 0;
 			height: 13.333vw;

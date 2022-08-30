@@ -53,3 +53,120 @@
 		}
 	}
 }
+
+
+.popap-hero {
+	position: fixed;
+	z-index: 100;
+	top: 50%;
+	left: -100%;
+	transform: translate(-50%, -50%);
+	background: #363636;
+	border-radius: 10px;
+	width: 600px;
+	max-width: 100%;
+	padding: 40px;
+	opacity: 0;
+	pointer-events: none;
+	transition: all 0.3s ease, left 0s ease 0.3s;
+	&._active {
+		left: 50%;
+		opacity: 1;
+		pointer-events: auto;
+		transition: all 0.3s ease, left 0s ease;
+	}
+	@media (max-width: 768px){
+		width: 100%;
+		padding: 10vw 5.56vw;
+	}
+	&-back {
+		cursor: pointer;
+		position: fixed;
+		z-index: 99;
+		top: 0;
+		left: -100%;
+		width: 100%;
+		height: 100%;
+		background-color: rgba($color: #000000, $alpha: 0.5);
+		opacity: 0;
+		pointer-events: none;
+		transition: all 0.3s ease, left 0s ease 0.3s;
+		&._active {
+			left: 0;
+			opacity: 1;
+			pointer-events: auto;
+			transition: all 0.3s ease, left 0s ease;
+		}
+	}
+	&__close {
+		position: absolute;
+		top: 15px;
+		right: 15px;
+		width: 20px;
+		height: 20px;
+		cursor: pointer;
+		@media (max-width: 768px){
+			width: 7.556vw;
+			height: 7.556vw;
+			top: 3.167vw;
+			right: 1.167vw;
+		}
+		&::before,&::after{
+			content:'';
+			position: absolute;
+			top: 50%;
+			left: 0;
+			width: 100%;
+			height: 2px;
+			background-color: #ffffff;
+		}
+		&::before{
+			transform: rotate(45deg);
+		}
+		&::after{
+			transform: rotate(-45deg);
+		}
+	}
+	&__form {
+		&-input {
+			width: 100%;
+			height: 48px;
+			margin-top: 12px;
+			background: #000000;
+			border-radius: 3px;
+			@media (max-width: 768px){
+				margin-top: 4vw;
+				height: 17.778vw;
+				border-radius: 0.833vw;
+			}
+			input {
+				display: block;
+				background-color: transparent;
+				width: 100%;
+				height: 100%;
+				padding: 0 20px;
+				font-family: "Open Sans";
+				font-style: normal;
+				font-weight: 600;
+				font-size: 15px;
+				line-height: 125%;
+				color: #FFFFFF;
+				border: 1px solid #5D5D5D;
+				border-radius: 3px;
+				&[type="submit"] {
+					cursor: pointer;
+				}
+				&:focus {
+					border: 1px solid #ffffff;
+				}
+				@media (max-width: 768px){
+					padding: 0 4.444vw;
+					border-radius: 0.833vw;
+					font-size: 4.167vw;
+					border: 0.278vw solid #5D5D5D;
+					border-radius: 0.833vw;
+				}
+			}
+		}
+	}
+}
