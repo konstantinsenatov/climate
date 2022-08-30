@@ -1,0 +1,25 @@
+section.question 
+	.question__container.container 
+		.question__title.general-title Задайте нам вопрос
+		.question__content 
+			form(action="#").question__form.form-question
+				.form-question__input-wrapper 
+					input(type="text" placeholder="Представьтесь, пожалуйста")
+				.form-question__input-wrapper 
+					input(type="tel" placeholder="Ваш номер телефона")
+				.form-question__message
+					textarea(type="text" placeholder="Суть обращения")
+				.form-question__file
+					label.form-question__file-label(for='form-question__file-input')
+						span.js-form-question__file-span.form-question__file-span Прикрепить файл
+						img(src="img/svg/file.svg", alt="alt")
+						input#form-question__file-input.form-question__file-input(type='file' name='attachment-file' value='1')
+				.form-question__send 
+					button(type='submit')
+						span Отправить вопрос
+			.right-question
+				.right-question__icon 
+					img(src="img/svg/icon.svg", alt="alt")
+				.right-question__title Узнать о нашем оборудовании
+				.right-question__text Вентустановки, климатическое оборудование и многое другое
+

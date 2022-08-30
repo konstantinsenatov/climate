@@ -1,0 +1,229 @@
+.question {
+	padding: 56px 0 48px;
+	@media (max-width: 768px){
+		padding: 7.778vw 0 8.333vw 0;
+	}
+	&__content {
+		display: flex;
+		justify-content: space-between;
+		margin-top: 38px;
+		@media (max-width: 900px){
+			flex-wrap: wrap;
+		}
+		@media (max-width: 768px){
+			margin-top: 8.333vw;
+		}
+	}
+	
+		&__form {
+			flex: 0 1 835px;
+			@media (max-width: 900px){
+				flex: 1 1 auto;
+			}
+		}
+}
+
+.form-question {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -8px;
+	input, textarea, .form-question__file-span {
+		font-family: 'Open Sans';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 125%;
+		display: flex;
+		align-items: center;
+		color: #000000;
+		@media (max-width: 768px){
+			font-size: 4.167vw;
+		}
+	}
+	&__input-wrapper {
+		width: 50%;
+		height: 64px;
+		padding: 0 8px;
+		@media (max-width: 768px){
+			width: 100%;
+			height: 17.778vw;
+			&:not(:first-child) {
+				margin-top: 2.778vw;
+			}
+		}
+		input {	
+			background-color: #ffffff;
+			width: 100%;
+			height: 100%;
+			padding: 0 20px;
+			border: 1px solid #DEDEDE;
+			border-radius: 3px;
+			@media (max-width: 768px){
+				padding: 0 4.444vw;
+				border-radius: 0.833vw;
+				border: 0.278vw solid #DEDEDE;
+			}
+		}
+	}
+	
+	&__message {
+		margin-top: 16px;
+		padding: 0 8px;
+		width: 100%;
+		min-height: 186px;
+		@media (max-width: 768px){
+			margin-top: 2.778vw;
+			min-height: 76.944vw;
+		}
+		textarea {
+			width: 100%;
+			height: 100%;
+			padding: 24px 20px;
+			background: #FFFFFF;
+			border: 1px solid #DEDEDE;
+			border-radius: 3px;
+			@media (max-width: 768px){
+				padding: 6.667vw 4.444vw;
+				border-radius: 0.833vw;
+				border: 0.278vw solid #DEDEDE;
+			}
+		}
+	}
+	
+	&__file {
+		margin-top: 16px;
+		padding: 0 8px;
+		width: 100%;
+		@media (max-width: 768px){
+			margin-top: 2.778vw;
+		}
+		&-label {
+			background-color: #ffffff;
+			width: 100%;
+			height: 64px;
+			padding: 0 20px;
+			display: flex;
+			align-items: center;
+			cursor: pointer;
+			position: relative;
+			border: 1px solid #DEDEDE;
+			border-radius: 3px;
+			
+			@media (max-width: 768px){
+				border-radius: 0.833vw;
+				border: 0.278vw solid #DEDEDE;
+				height: 17.778vw;
+				padding: 0 4.444vw;
+			}
+			img {
+				position: absolute;
+				top: 50%;
+				right: 16px;
+				transform: translate(0, -50%);
+				width: 32px;
+				height: 32px;
+				@media (max-width: 768px){
+					width: 8.889vw;
+					height: 8.889vw;
+					right: 4.444vw;
+				}
+			}
+		} 
+		&-span {
+
+		} 
+		&-input {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			opacity: 0;
+			pointer-events: none;
+		}
+	}
+	&__send {
+		width: 100%;
+		margin-top: 24px;
+		padding: 0 8px;
+		display: flex;
+		justify-content: flex-end;
+		@media (max-width: 768px){
+			margin-top: 6.667vw;
+		}
+		button {
+			width: 200px;
+			height: 40px;
+			border: 1px solid #656565;
+			border-radius: 3px;
+			font-family: 'Open Sans';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 15px;
+			line-height: 125%;
+			display: inline-flex;
+			justify-content: center;
+			align-items: center;
+			color: #000000;
+			@media (max-width: 768px){
+				width: 100%;
+				height: 11.111vw;
+				font-size: 4.167vw;
+				border: 0.278vw solid #656565;
+				border-radius: 0.833vw;
+			}
+		}
+
+	}
+}
+
+.right-question {
+	flex: 0 1 341px;
+	margin-left: 20px;
+	@media (max-width: 768px){
+		flex: 1 1 100%;
+		margin-top: 6.667vw;
+		margin-left: 0;
+	}
+	&__icon {
+		width: 64px;
+		height: 64px;
+		@media (max-width: 768px){
+			width: 15.278vw;
+			height: 15.278vw;
+		}
+		img {
+			width: 100%;
+			height: 100%;
+		}
+	}
+
+	&__title {
+		margin-top: 16px;
+		font-family: 'Fira Sans';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 20px;
+		line-height: 135%;
+		text-decoration-line: underline;
+		color: #000000;
+		@media (max-width: 768px){
+			margin-top: 4.167vw;
+			font-size: 4.444vw;
+		}
+	}
+
+	&__text {
+		margin-top: 12px;
+		font-family: 'Open Sans';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 15px;
+		line-height: 150%;
+		color: #383838;
+		@media (max-width: 768px){
+			font-size: 4.167vw;
+			margin-top: 3.333vw;
+		}
+	}
+}

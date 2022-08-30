@@ -1,0 +1,62 @@
+section.calculation
+	.calculation__container.container 
+		.calculation__body 
+			.calculation__title.general-title.general-title--white Расчет стоимости проектирования
+			.calculation__tabs.tabs-calculation
+				.tabs-calculation__pag 
+				.tabs-calculation__swiper.swiper 
+					.swiper-wrapper
+						.tabs-calculation__item.swiper-slide 
+							.tabs-calculation__options.options-calculation
+								.tabs-calculation__title Параметры
+								select(name="select1").options-calculation__select1.options-calculation__item
+									option(value="1") Тип помещения1
+									option(value="2") Тип помещения2
+									option(value="3") Тип помещения3
+									option(value="4") Тип помещения4
+								select(name="select2").options-calculation__select2.options-calculation__item
+									option(value="1") Тип кондиционера1
+									option(value="2") Тип кондиционера2
+									option(value="3") Тип кондиционера3
+									option(value="4") Тип кондиционера4
+								select(name="select3").options-calculation__select3.options-calculation__item
+									option(value="1") Тип вентиляции1
+									option(value="2") Тип вентиляции2
+									option(value="3") Тип вентиляции3
+									option(value="4") Тип вентиляции4
+								.options-calculation__square.options-calculation__item
+									.options-calculation__title Укажите площадь
+									input.options-calculation__value(type="text" value="S²") 
+									.options-calculation__input-range 
+										input(type="range" name="" id="input" min="0" max="1000" value="50")
+							.tabs-calculation__price.price-calculation 
+								.tabs-calculation__title Стоимость
+								.price-calculation__number 160 000 ₽
+								.price-calculation__text При заказе систем вентилияции и кондиционирования по нашему проекту скидка 10% на работы и оборудование! 
+								.price-calculation__btn.order-project-btn
+									span Заказать проект
+									img(src="img/svg/arrow-circle.svg", alt="alt")
+						.tabs-calculation__item.swiper-slide 
+							.tabs-calculation__options.options-calculation
+								.tabs-calculation__title Оборудование
+							.tabs-calculation__price.price-calculation 
+								.tabs-calculation__title Стоимость
+								.price-calculation__number 160 000 ₽
+								.price-calculation__text При заказе систем вентилияции и кондиционирования по нашему проекту скидка 10% на работы и оборудование! 
+								.price-calculation__btn.order-project-btn
+									span Заказать проект
+									img(src="img/svg/arrow-circle.svg", alt="alt")
+
+				.tabs-calculation__footer 
+					a(href="#").tabs-calculation__footer-item 
+						img(src="img/svg/cart.svg", alt="alt")
+						span Оформить в рассрочку
+					a(href="#").tabs-calculation__footer-item 
+						img(src="img/svg/cart.svg", alt="alt")
+						span Гарантия регистрации объекта
+					a(href="#").tabs-calculation__footer-item 
+						img(src="img/svg/cart.svg", alt="alt")
+						span Гарантия на монтаж
+					a(href="#").tabs-calculation__footer-item 
+						img(src="img/svg/cart.svg", alt="alt")
+						span Заказать выезд специалиста
