@@ -374,23 +374,23 @@
           <div class="question__container container"> 
             <div class="question__title general-title">Задайте нам вопрос</div>
             <div class="question__content"> 
-              <form class="question__form form-question" action="#">
+              <form class="question__form form-question" action="#" method="post">
                 <div class="form-question__input-wrapper"> 
-                  <input type="text" placeholder="Представьтесь, пожалуйста">
+                  <input type="text" name="question-name" placeholder="Представьтесь, пожалуйста">
                 </div>
                 <div class="form-question__input-wrapper"> 
-                  <input type="tel" placeholder="Ваш номер телефона">
+                  <input class="phone" type="text" name="question-phone" placeholder="Ваш номер телефона">
                 </div>
                 <div class="form-question__message">
-                  <textarea type="text" placeholder="Суть обращения"></textarea>
+                  <textarea type="text" name="question-message" placeholder="Суть обращения"></textarea>
                 </div>
                 <div class="form-question__file">
                   <label class="form-question__file-label" for="form-question__file-input"><span class="js-form-question__file-span form-question__file-span">Прикрепить файл</span><img src="img/svg/file.svg" alt="alt">
-                    <input class="form-question__file-input" id="form-question__file-input" type="file" name="attachment-file" value="1">
+                    <input class="form-question__file-input" id="form-question__file-input" type="file" name="question-file" value="1">
                   </label>
                 </div>
                 <div class="form-question__send"> 
-                  <button type="submit"><span>Отправить вопрос</span></button>
+                  <button class="form-question__send-button" type="submit"><span>Отправить вопрос</span></button>
                 </div>
               </form>
               <div class="right-question">

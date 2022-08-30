@@ -10,6 +10,9 @@ $(document).ready(function() {
 
 $(document).ready(function() {
 	$('.header-item-click').on('click', function() {
+		$('.top-header').removeClass('js-top-header-active');
+		$('.bottom-header').removeClass('js-bottom-header-active');
+		$('body').removeClass('overflow-hidden');
 		let href = $(this).attr('href');
 		
 		$('html, body').animate({
@@ -22,3 +25,4 @@ $(document).ready(function() {
 		return false;
 	});
 });
+

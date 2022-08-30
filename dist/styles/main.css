@@ -2085,6 +2085,7 @@ body.overflow-hidden {
 
 .question {
   padding: 56px 0 48px;
+  background: #F2F2F2;
 }
 
 .question__content {
